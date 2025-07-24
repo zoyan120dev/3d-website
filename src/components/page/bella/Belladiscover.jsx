@@ -6,6 +6,7 @@ import { Latestcart } from "../../ui/Latestcart";
 const Belladiscover = () => {
   const [cartdata, setcartdata] = useState([]);
   const [loading, setloading] = useState(true);
+
   const [error, seterror] = useState("");
 
   const fetchdata = () => {
@@ -31,6 +32,7 @@ const Belladiscover = () => {
   useEffect(() => {
     fetchdata();
   }, []);
+
 
   if (loading) {
     return (
@@ -65,9 +67,11 @@ const Belladiscover = () => {
             ))}
           </div>
         </Containerbox>
+
       </section>
     </>
   );
 };
 
 export default Belladiscover;
+

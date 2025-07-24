@@ -3,6 +3,7 @@ import Home from "./components/page/home/Home";
 import Layout from "./components/page/lyaout/Layout";
 import Result from "./components/page/resualt/Result";
 import Bella from "./components/page/bella/Bella";
+
 import Errorpage from "./components/page/error/Errorpage";
 
 

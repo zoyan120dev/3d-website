@@ -1,6 +1,7 @@
 import { cn } from "../../../public/lib/cn";
 
 
+
 export const Headingbox = ({ className, children }) => {
   return (
     <>
@@ -12,5 +13,6 @@ export const Headingbox = ({ className, children }) => {
     </>
   );
 };
+
 
 

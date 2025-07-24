@@ -24,6 +24,7 @@ export const Avtivitiecart = (props) => {
           </div>
         </div>
 
+
         <div className="flex items-center gap-x-2 py-5">
           <div className="flex items-center gap-x-1">
             {Array.from(Array(5).keys()).map((el) => (
@@ -51,6 +52,7 @@ export const Avtivitiecart = (props) => {
             />
           ))}
         </div>
+
 
         <NavLink
           to={"/discover"}

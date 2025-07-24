@@ -5,6 +5,7 @@ import Result from "./components/page/resualt/Result";
 import Bella from "./components/page/bella/Bella";
 import Errorpage from "./components/page/error/Errorpage";
 
+
 function App() {
   return (
     <>
@@ -21,5 +22,6 @@ function App() {
     </>
   );
 }
+
 
 export default App;

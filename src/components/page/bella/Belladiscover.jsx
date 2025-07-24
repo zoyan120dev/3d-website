@@ -40,6 +40,7 @@ const Belladiscover = () => {
         Loading...
       </p>
     );
+    
   }
   if (error) {
     return (
@@ -67,6 +68,7 @@ const Belladiscover = () => {
             ))}
           </div>
         </Containerbox>
+
 
       </section>
     </>

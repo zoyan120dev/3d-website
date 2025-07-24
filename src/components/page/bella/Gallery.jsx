@@ -11,6 +11,7 @@ import { Containerbox } from "../../ui/Containerbox";
 import { Headingbox } from "../../ui/Headingbox";
 import { Buttonbox } from "../../ui/Buttonbox";
 
+
 const Gallery = () => {
   const [imgData, setimgdata] = useState([]);
   const [loading, setloading] = useState(true);
@@ -38,6 +39,7 @@ const Gallery = () => {
         setloading(false);
       });
   };
+  
 
   useEffect(() => {
     fetchdata();

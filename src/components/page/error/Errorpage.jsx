@@ -11,7 +11,7 @@ const Errorpage = () => {
         <Containerbox>
           <div className=" max-w-ful md:max-w-lg text-center mx-auto">
             <h1 className="text-6xl font-bold text-red-400 lg:text-8xl">Error 404</h1>
-            <p className=" font-medium text-heading pb-5 text-2xl py-5 text-red-300">
+            <p className=" font-medium  pb-5 text-2xl py-5 text-red-300">
               The page youre looking for doesnt exist.
             </p>
             <Buttonbox onClick={() => navigate("/")}>back Home</Buttonbox>

@@ -8,11 +8,12 @@ export const Carusol = (props) => {
 
   const imgdata = imgbox[currentindex];
 
-  
+
   const handleClick = (index) => {
     setindex(index);
   };
   return (
+    
 
     <>
       <div

@@ -78,6 +78,7 @@ const Bellainformation = () => {
                 <img src="./w-img.png" className="w-fit h-auto " alt="" />
               </div>
             </div>
+            
             <div>
               <img
                 src="./b-map.png"
@@ -88,6 +89,7 @@ const Bellainformation = () => {
           </div>
         </Containerbox>
       </section>
+
     </>
   );
 };

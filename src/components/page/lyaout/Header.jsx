@@ -19,6 +19,7 @@ const Header = () => {
 
   const [cartdata, setdata] = useState([]);
   const [loading, setloading] = useState(true);
+
   const [error, seterror] = useState("");
   const [isMenuopen, setMenuopen] = useState(false);
   const navigate = useNavigate();
@@ -56,6 +57,7 @@ const Header = () => {
       setloading(false);
     } catch (error) {
       seterror(error.message);
+
     } finally {
       setloading(false);
     }
@@ -80,6 +82,7 @@ const Header = () => {
     );
   }
 
+
   return (
     <>
       <Navbar
@@ -102,6 +105,7 @@ const Header = () => {
             </NavLink>
           </NavbarBrand>
         </NavbarContent>
+        
 
         <NavbarContent justify="center" className="hidden lg:flex">
           <form>

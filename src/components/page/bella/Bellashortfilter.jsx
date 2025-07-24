@@ -11,12 +11,14 @@ import {
   useDisclosure,
 } from "@nextui-org/react";
 
+
 import { useEffect, useState } from "react";
 import { ArrowUpDown, Download } from "lucide-react";
 import { Buttonbox } from "../../ui/Buttonbox";
 import { Headingbox } from "../../ui/Headingbox";
 import { Bellacart } from "../../ui/Bellacart";
 import { Containerbox } from "../../ui/Containerbox";
+
 
 const Bellashortfilter = () => {
   const [carts, setcartdata] = useState([]);
@@ -59,6 +61,7 @@ const Bellashortfilter = () => {
     setShowSuggestions(true); // Show suggestions when typing
   };
 
+
   // Filter carts based on search term and star selection
   const filteredCarts = sortedCarts.filter((cart) => {
     const matchesSearch = cart.name
@@ -86,6 +89,7 @@ const Bellashortfilter = () => {
     setSortedCarts(sorted); // Hide menu after selection
   };
 
+  
   const loadMoreCarts = () => {
     setvisiblecart(visiblecart + 6); // Load 6 more carts each time
   };

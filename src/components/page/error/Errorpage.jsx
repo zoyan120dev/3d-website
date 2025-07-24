@@ -14,7 +14,7 @@ const Errorpage = () => {
             <p className=" font-medium  pb-5 text-2xl py-5 text-red-300">
               The page youre looking for doesnt exist.
             </p>
-            <Buttonbox onClick={() => navigate("/")}>back Home</Buttonbox>
+            <Buttonbox className='bg-red-500 p-3 rounded-lg' onClick={() => navigate("/")}>back Home</Buttonbox>
           </div>
         </Containerbox>
       </section>

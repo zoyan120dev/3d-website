@@ -7,10 +7,10 @@ const Errorpage = () => {
   const navigate = useNavigate();
   return (
     <>
-      <section>
+      <section  className="mt-20">
         <Containerbox>
           <div className=" max-w-ful md:max-w-lg text-center mx-auto">
-            <h1 className="text-6xl font-bold text-heading py-2">Error 404</h1>
+            <h1 className="text-6xl font-bold text-red-400 lg:text-8xl">Error 404</h1>
             <p className="text-lg font-medium text-heading pb-2">
               The page youre looking for doesnt exist.
             </p>

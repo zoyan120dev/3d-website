@@ -14,6 +14,7 @@ import { Latestcart } from "../../ui/Latestcart";
 import { Buttonbox } from "../../ui/Buttonbox";
 
 
+
 const Resultcart = () => {
   const navigate = useNavigate();
   const [sortType, setSortType] = useState("default");
@@ -29,12 +30,15 @@ const Resultcart = () => {
     if (sortType === "smallToHigh") return a.star - b.star;
     if (sortType === "highToSmall") return b.star - a.star;
     return 0; // Default order (unsorted)
+
+
   });
 
   const loadMoreCarts = () => {
     setvisiblecart(visiblecart + 8); // Load 4 more carts each time
   };
 
+  
   const displayedCarts = sortedCarts.slice(0, visiblecart);
   return (
     <>
